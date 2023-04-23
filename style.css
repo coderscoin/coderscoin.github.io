@@ -12,6 +12,10 @@ h2 {
     font-size:xx-large;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
+h3 {
+    font-size:x-large;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
 section {
     padding: 10px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -195,6 +199,36 @@ background: radial-gradient(circle, rgba(136,255,148,1) 0%, rgba(240,248,255,1) 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
     font-weight: 900;
     font-size: 40px;
+}
+/*INFO BLOCKS */
+.mockup-image {
+    width: 150px;
+    height: auto;
+    /*flex-basis: 20%;*/
+}
+.mockup-text {
+    max-width: 90%;
+    width: 300px;
+}
+.mockup-block {
+    padding-right: 10px;
+    display: flex; /* use flexbox to make the container flexible */
+  flex-wrap: wrap; /* allow the container to wrap onto multiple lines if needed */
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+  gap: 30px;
+ background-color: smokewhite;
+}
+.mockup-image img {
+    width: 150px; /* make sure the image doesn't overflow its container */
+  height: auto;
+}
+.story-line {
+    border-left: 6px dotted green;
+  height: 100px;
+  margin: auto;
+  width: fit-content;
 }
   /*WAITLIST*/
   .waitlist {
