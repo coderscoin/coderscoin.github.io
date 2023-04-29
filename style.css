@@ -230,6 +230,27 @@ background: radial-gradient(circle, rgba(136,255,148,1) 0%, rgba(240,248,255,1) 
   margin: auto;
   width: fit-content;
 }
+/*LEAD*/
+.progress {
+    background-color: gainsboro;
+    max-width: 90%;
+    width: 300px;
+    padding:5px;
+    height: fit-content;
+    border-radius: 10px;
+    margin:auto;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.bar {
+    background-color: red;
+    height: 10px;
+    width: 50%;
+    border-radius: 10px;
+}
+.bardata {
+    text-align: center;
+}
   /*WAITLIST*/
   .waitlist {
     margin: auto;
@@ -237,7 +258,7 @@ background: radial-gradient(circle, rgba(136,255,148,1) 0%, rgba(240,248,255,1) 
   }
   input[type="text"], input[type="email"], input[type="text"]:focus, input[type="email"]:focus{
     padding: 10px;
-    border: 3px solid #88FF94;
+    border: 3px solid #006742;
     border-radius: 10px;
     outline:  none !important;
     margin-bottom: 15px;
