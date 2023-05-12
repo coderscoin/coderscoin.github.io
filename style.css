@@ -245,7 +245,7 @@ background: radial-gradient(circle, rgba(136,255,148,1) 0%, rgba(240,248,255,1) 
 .bar {
     background-color: red;
     height: 10px;
-    width: 50%;
+    width: 75%;
     border-radius: 10px;
 }
 .bardata {
@@ -295,16 +295,36 @@ footer {
     float: inline-start;
     height: 100%;
 }
+/*SHARE */
+.share-link {
+    background-color: azure;
+    padding: 10px;
+    border-radius: 15px;
+    text-decoration: none;
+    color: black;
+    margin: 10px;
+    display: inline-block;
+    
+}
 /*COLORS*/
 .yellow {
     color: rgb(155, 155, 0);
 }
+.lightblue {
+    color:lightskyblue;
+}
 .blue {
-    color:darkcyan;
+    color: blue;
 }
 .red {
     color: red;
 }
 .purple {
     color:blueviolet;
+}
+.orange {
+    color: orangered;
+}
+.green {
+    color: green;
 }
