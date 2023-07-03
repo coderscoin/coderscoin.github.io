@@ -1,13 +1,12 @@
 <!DOCTYPE html>
-<html lang="EN">
-    <head>
-        <title>CodersCoin - A cryptocurrency for developers and IT enthusiasts</title>
+<html lang="en">
+<head>
+    <title>CodersCoin - A cryptocurrency for developers and IT enthusiasts</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
-        <link rel="stylesheet" href="style.css">
         <script src="https://kit.fontawesome.com/d9ec437633.js" crossorigin="anonymous" defer></script>
 		<meta name="saashub-verification" content="cqle6ueijluk" />
-        <link rel="icon" type="image/png" href="./icon.png">
-        <link rel="apple-touch-icon" href="./icon.png"/>
+        <link rel="icon" type="image/png" href="./assets/brand/icon.png">
+        <link rel="apple-touch-icon" href="./assets/brand/icon.png"/>
         <!-- SEO -->
         <meta name="title" content="CodersCoin - A cryptocurrency for developers and IT enthusiasts">
         <meta name="description" content="CodersCoin is a cryptocurrency for developers. It provides a simple platform for developers to pay each other. No wallet is required, just a Github account.">
@@ -43,174 +42,242 @@
 
 	  gtag('config', 'G-P1GTLYFGQX');
 	</script>
-    </head>
-    <body>
-        <header>
-            <nav class="navbar  flex">
-                <span class="navbar-title"><a href="index.html">CodersCoin</a></span>
-                <ul class="navbar-links">
-                    <li><a href="http://csc.onrender.com/auth/github/">Use wallet</a></li>
-                </ul>
-            </nav><br><br><br><br>
-            <div class="hero divided">
-                <div class="left hero-text">
-                    <h1 class="hero-title">Empower Your IT community with fast and secure transactions</h1>
-                    <p class="hero-description">CodersCoin is a lightweight cryptocurrency for developers and IT enthusiasts made by developers, so they can pay each other as a reputation!</p>
-                    <!--a class="amazon-btn" href="#" target="_blank">
-                        <span class="btn-icon"><i class="fab fa-amazon"></i></span>
-                        <span class="btn-text">Get it on Amazon App Store</span>
-                      </a-->
-                      <a class="waitlist-btn" href="http://csc.onrender.com/auth/github">Use wallet</a>
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!--custom css-->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark custom-navbar p-10 fixed-top">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="./index.html">
+            <img src="./assets/brand/icon.png" alt="Logo" width="40" height="40" class="d-inline-block align-text-top">
+            CodersCoin
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <!--span class="navbar-toggler-icon">re</span-->
+            <span class="" role="button" ><i class="fas fa-code-branch" aria-hidden="true"></i></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Wallet</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="./mine.html">Mine CSC</a>
+              </li><!--.disabled to disable-->
+              <!--li class="nav-item">
+                <a class="nav-link" href="./cart.html"><i class="fas fa-shopping-cart"></i> <span class="badge badge-danger bg-danger px-1">
+                    <script>
+                        var cart = JSON.parse(sessionStorage.getItem("cart"));
+                        if(cart != null){document.write(Object.keys(cart).length);}else{document.write("0");}
+                    </script>
+                </span></a>
+              </li-->
+            </ul>
+          </div>
+        </div>
+      </nav>
+        <div class="px-4 py-5 my-5 text-center hero">
+          <img class="d-block mx-auto mb-4" src="./assets/brand/hero.png" alt="" width="200" height="200">
+          <h1 class="display-5 fw-bold">Empower Your IT community with fast and secure transactions</h1>
+          <div class="col-lg-6 mx-auto">
+            <p class="lead mb-4">CodersCoin is a lightweight cryptocurrency for developers and IT enthusiasts made by developers, so they can pay each other as a reputation!</p>
+            <div class="d-grid gap-2 d-sm-flex justify-content-sm-center">
+              <a href="https://csc.onrender.com/auth/github" type="button" class="btn btn-primary btn-lg px-4 gap-3">Use wallet</a>
+              <a href="#" type="button" class="btn btn-secondary btn-lg px-4">Mine CSC</a>
+            </div>
+          </div>
+        </div>
+      <!--/div-->
+      <main class="container">
+        <section>
+            <div class="row">
+                <div class="col-xs-12 text-center"><h2>A completely independent blockchain and coin technology</h2></div>
+                <div class="col-xs-12 text-center"><p>CodersCoin is a unique and completely proprietary blockchain and crypto technology. CodersCoin serves a kind of reputational and thank you purpose for programmers, designers and IT enthusiasts. The goal of the development was to provide a simple platform for digital creators to pay each other without the intervention of any banks or governments. Also, digital files can be sent securely. No separate application is required, just a Github account. With CodersCoin, You can empower Your community with fast & secure transactions or support your favorite open source projects.</p></div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-auto mb-5 text-center" style="width: 300px;">
+                    <div class="text-center">
+                        <div class="card-icon"><i class="fas fa-mobile fa-3x yellow" aria-hidden="true" style="color: greenyellow;"></i></div>
+                        <h3>Cloud wallet</h3>
+                    </div>
+                    CodersCoin offers a solution where you no longer need to register to create a wallet. All your transactions are assigned to your Github account.
                 </div>
-                <div class="right">
-                    <img class="hero-image" src="hero.png" alt="Screenshot">
+                <div class="col-auto mb-5 text-center" style="width: 300px;">
+                    <div class="text-center">
+                        <div class="card-icon"><i class="fas fa-desktop fa-3x yellow" aria-hidden="true" style="color: orangered;"></i></div>
+                        <h3>Safe technology</h3>
+                    </div>
+                    Each block is interconnected and protected by very strong cryptographic encoding. All transactions that take place within CodersCoin are saved in a large database and distributed among nodes operated by the community.
+                </div>
+                <div class="col-auto mb-5 text-center" style="width: 300px;">
+                    <div class="text-center">
+                        <div class="card-icon"><i class="fas fa-network-wired fa-3x yellow" aria-hidden="true" style="color: green;"></i></div>
+                        <h3>Lightweight and fast</h3>
+                    </div>
+                    Although CodersCoin uses a rather complex technology, it does not require huge computing capacity like all other cryptocurrencies.
+                </div>
+                <div class="col-auto mb-5 text-center" style="width: 300px;">
+                    <div class="text-center">
+                        <div class="card-icon"><i class="fas fa-gear fa-3x yellow" aria-hidden="true" style="color: rebeccapurple;"></i></div>
+                        <h3>Made for IT enthusiasts</h3>
+                    </div>
+                    CodersCoin was made by developers for developers. You can easily paste your CSC balance into any README.md or HTML document. The entire blockchain and cryptocurrency works within Github.
                 </div>
             </div>
-
-        </header>
-        <main>
-            <section id="sect-why">
-                <h2>A completely independent blockchain and coin technology</h2>
-                <p class="sect-desc">CodersCoin is a unique and completely proprietary blockchain
-                     and crypto technology. CodersCoin serves a kind of reputational and thank you purpose
-                      for programmers, designers and IT enthusiasts. The goal of the development was to provide a simple
-                       platform for digital creators to pay each other without the intervention of any banks or governments.
-                        Also, digital files can be sent securely. No separate application is required, just a Github account.
-			With CodersCoin, You can empower Your community with fast & secure transactions or support your favorite open source projects.</p><br>
-                <div class="flex flex-row">
-                    <div class="divided-card">
-                        <div class="card-icon"><i class="fas fa-wallet fa-3x yellow"></i></div>
-                        <h3 class="card-title">Cloud wallet</h3>
-                        <p class="card-description">CodersCoin offers a solution where you no longer need to register to create a wallet. All your transactions are assigned to your Github account.</p>
-                    </div>
-                    <div class="divided-card">
-                        <div class="card-icon"><i class="fas fa-network-wired fa-3x blue"></i></div>
-                        <h3 class="card-title">Safe blockchain technology</h3>
-                        <p class="card-description">Each block is interconnected and protected by very strong cryptographic encoding. All transactions that take place within CodersCoin are saved in a large database and distributed among nodes operated by the community.</p>
-                    </div>
-                    <div class="divided-card">
-                        <div class="card-icon"><i class="fas fa-feather fa-3x red"></i></div>
-                        <h3 class="card-title">Lightweight and fast</h3>
-                        <p class="card-description">Although CodersCoin uses a rather complex technology, it does not require huge computing capacity like all other cryptocurrencies.</p>
-                    </div>
-                    <div class="divided-card">
-                        <div class="card-icon"><i class="fas fa-hammer fa-3x purple"></i></div>
-                        <h3 class="card-title">Made for IT enthusiasts</h3>
-                        <p class="card-description">CodersCoin was made by developers for developers. You can easily paste your CSC balance into any README.md or HTML document. The entire blockchain and cryptocurrency works within Github.</p>
-                    </div>
-                </div>
-            </section>
-            <!--TODO: How it works?-->
-            <section id="sect-how">
-                <h2>How does CodersCoin work?</h2>
-                <p class="sect-desc">SOON! THIS SECTION IS UNDER DEVELOPMENT!</p>
-                <div class="story-line">&nbsp;</div>
-                <div class="mockup-block">
-                    <div class="mockup-text">
-                        <h3>Access the wallet</h3>
-                        <p>With CodersCoin, there is no need for an external wallet application, as the wallet itself will be assigned to your Github account. Every time you log into the online wallet with your Github account, your CSC balance will be displayed. It is also possible to transfer and receive CodersCoin within the wallet.</p>
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-xs-12 text-center"><h2>How does CodersCoin work?</h2></div>
+                <div class="col-xs-12 text-center"><p>Name of Section</p></div>
+            </div>
+            Access the wallet
+            With CodersCoin, there is no need for an external wallet application, as the wallet itself will be assigned to your Github account. Every time you log into the online wallet with your Github account, your CSC balance will be displayed. It is also possible to transfer and receive CodersCoin within the wallet.
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-xs-12 text-center"><h2>Spread the word</h2></div>
+                <div class="col-xs-12 text-center"><p>Do you like CodersCoin? Share it with your friends! Since CodersCoin is maintained by the community, we do not pay for advertisements. The best way to support the project is to share it with as many people as possible so that it reaches them! Thank you on behalf of the CSC community!</p></div>
+            </div>
+            <div class="text-center">
+                <a class="btn btn-third mb-2" style="background-color: #55acee;" href="https://twitter.com/intent/tweet?text=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it!&url=https://coderscoin.github.io/?utm_source=twitter&utm_medium=social&utm_campaign=share" target="_blank" role="button">
+                    <i class="fab fa-twitter me-2"></i>Share on Twitter
+                </a>
+                <a class="btn btn-third mb-2" style="background-color: blue;" href="https://www.facebook.com/sharer/sharer.php?u=https://coderscoin.github.io/?utm_source=facebook&utm_medium=social&utm_campaign=share" target="_blank" role="button">
+                    <i class="fab fa-facebook me-2"></i>Share on Facebook
+                </a>
+                <a class="btn btn-third mb-2" style="background-color: green;" href="https://wa.me/?text=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it! https://coderscoin.github.io/?utm_source=whatsapp&utm_medium=message&utm_campaign=share" target="_blank" role="button">
+                    <i class="fab fa-whatsapp me-2"></i>Send on Whatsapp
+                </a>
+                <a class="btn btn-third mb-2" style="background-color: #55acee;" href="https://t.me/share/url?url=https://coderscoin.github.io/&text=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it!" target="_blank" role="button">
+                    <i class="fab fa-stack-overflow me-2"></i>Send on Telegram
+                </a>
+                <a class="btn btn-third mb-2" style="background-color: orangered;" href="https://www.reddit.com/submit?url=https://coderscoin.github.io/&title=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it!" target="_blank" role="button">
+                    <i class="fab fa-reddit me-2"></i>Share on Reddit
+                </a>
+            </div>
+             
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-xs-12 text-center"><h2>The CodersCoin team</h2></div>
+                <div class="col-xs-12 text-center"><p>SOON</p></div>
+            </div>
+            SOON
+        </section>
+        <section>
+            <div class="row">
+                <div class="col-xs-12 text-center"><h2>What other people said</h2></div>
+                <div class="col-xs-12 text-center"><p>I've already worked with a few people and asked them for their input. I have also asked some of my software users or friends that I've worked with on a cool project. Their feedback means a lot to me.</p></div>
+            </div>
+            <div id="testimonialCarousel" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <div class="card">
+                      <div class="card-body">
+                        <div class="testimonial">
+                          <div class="testimonial-author">
+                            <img src="./assets/images/haycat.png" alt="Profile Image" class="testimonial-avatar d-inline-block" width="50" height="50" style="vertical-align:middle; border-radius: 100%;">
+                            <div class="author-details d-inline-block" style="vertical-align:middle;">
+                              <h5 class="author-name">hugecodes</h5>
+                              <span class="author-designation">Full stack programmer</span>
+                            </div>
+                          </div>
+                          <i class="fas fa-star" style="color: #fbff00;"></i>
+                            <i class="fas fa-star" style="color: #fbff00;"></i>
+                            <i class="fas fa-star" style="color: #fbff00;"></i>
+                            <i class="fas fa-star" style="color: #fbff00;"></i>
+                            <i class="fas fa-star" style="color: #fbff00;"></i>
+                          <div class="testimonial-text">
+                            <p>Amazing and easy to work with</p>
+                          </div>
+                        </div>
                       </div>
-                    <div class="mockup-image">
-                        <img src="./mockupv1.png" alt="your-image-description-here">
-                      </div>
-                      
+                    </div>
+                  </div>
+                  <!-- Add more carousel items as needed -->
                 </div>
-                <div class="story-line">&nbsp;</div>
-                <!--div class="mockup-block">
-                    <div class="mockup-text">
-                        <h3>Access the wallet</h3>
-                        <p>With CodersCoin, there is no need for an external wallet application, as the wallet itself will be assigned to your Github account. Every time you log into the online wallet with your Github account, your CSC balance will be displayed. It is also possible to transfer and receive CodersCoin within the wallet.</p>
-                      </div>
-                    <div class="mockup-image">
-                        <img src="./mockupv1.png" alt="your-image-description-here">
-                      </div>
-                      
-                </div-->
-            </section>
-            <section id="sect-referral">
-                <h2>This is how developers like CodersCoin</h2>
-                <p class="sect-desc">CodersCoin have only just taken off, but the number of people interested in the crypto project has already increased significantly</p><br>
-                <div class="flex flex-row">
-                    <div class="divided-card">
-                        <span class="ref-stat">2</span>
-                        <h3 class="ref-desc card-title">Upvotes on <a href="https://www.producthunt.com/products/coderscoin">producthunt</a></h3>
-                    </div>
-                    <div class="divided-card">
-                        <span class="ref-stat">23</span>
-                        <h3 class="ref-desc card-title">transactions</h3>
-                    </div>
-                    <div class="divided-card">
-                        <span class="ref-stat">0</span>
-                        <h3 class="ref-desc card-title">Supporters</h3>
-                    </div>
-                    <div class="divided-card">
-                        <span class="ref-stat">10+</span>
-                        <h3 class="ref-desc card-title">Users holding CSC</h3>
-                    </div>
-                </div>
-            </section>
-            <!--TODO: Mit tartalmaz, legnagyobb előny -->
-            <!--TODO: The team -->
-            <section id="sect-team">
-                <h2>The CodersCoin team</h2>
-                <p class="sect-desc">SOON! THIS SECTION IS UNDER DEVELOPMENT!</p>
-            </section>
-            <!--TODO: Exchange rates -->
-            <!--TODO: Lead: Giveaway -->
-            <section id="getcsc">
-                <h2>Be the first to own 5 CSC!</h2>
-                <p class="sect-desc">We launched CodersCoin not long ago! Be the first 40 people to have CodersCoin! I am now transferring you 5 CSC absolutely free to express my gratitude for your interest in this project!</p>
-                <div class="progress">
-                    <div class="bar" id="progressbar" width="50%"></div>
-                </div>
-                <p class="bardata">10/20 person already joined!</p>
-                <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-                <form onsubmit="formSubmited();" method="get" action="https://script.google.com/macros/s/AKfycbzdNSahM9FyZQRwNIPlJrqYF160fOiZY6smomkUJVK65-lzVG81GDpJdTA9iuLRGZmXYw/exec" class="waitlist" target="dummyframe">
-                    <label for="name">Name: <input type="text" id="name" name="name" placeholder="John Doe" required></label><br>
-                    <label for="email">Email: <input type="email" id="email" name="email" placeholder="john.doe@mail.com" required></label><br>
-                    <label for="github">Github username: <input type="text" id="github" name="github" placeholder="petertill" required></label><br>
-                    <input type="submit" value="Join the waitlist!">
-                </form>
-            </section>
-		<section>
-                <h2>Spread the word</h2>
-                <p class="sect-desc">Do you like CodersCoin? Share it with your friends! Since CodersCoin is maintained by the community, we do not pay for advertisements. The best way to support the project is to share it with as many people as possible so that it reaches them! Thank you on behalf of the CSC community!</p>
-                <center>
-                    <a class="share-link" href="https://twitter.com/intent/tweet?text=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it!&url=https://coderscoin.github.io/?utm_source=twitter&utm_medium=social&utm_campaign=share" target="_blank"><i class="fa-brands fa-twitter lightblue"></i> Share on Twitter</a>
-                    <!--a class="share-link" href="https://mail.google.com/mail/u/0/?view=cm&to&su=Try out CodersCoin!&body=It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it! https://coderscoin.github.io/?utm_source=gmail&utm_medium=email&utm_campaign=share&bcc&cc&fs=1&tf=1">Share by Gmail</a-->
-                    <a class="share-link" href="https://www.facebook.com/sharer/sharer.php?u=https://coderscoin.github.io/?utm_source=facebook&utm_medium=social&utm_campaign=share"><i class="fa-brands fa-facebook blue"></i> Share on Facebook</a>
-                    <a class="share-link" href="https://wa.me/?text=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it! https://coderscoin.github.io/?utm_source=whatsapp&utm_medium=message&utm_campaign=share"><i class="fa-brands fa-whatsapp green"></i> Send on Whatsapp</a>
-                    <a class="share-link" href="https://t.me/share/url?url=https://coderscoin.github.io/&text=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it!"><i class="fa-brands fa-telegram lightblue"></i> Send on Telegram</a>
-                    <a class="share-link" href="https://www.reddit.com/submit?url=https://coderscoin.github.io/&title=Try out CodersCoin! It is a lightweight cryptocurrency used among developers and IT enthusiasts to pay each other. I love it!"><i class="fa-brands fa-reddit orange"></i> Share on Reddit</a>
-                </center>
-                </section>
-            <!--TODO: FAQ block -->
-            <!--section id="sect-waitlist" class="bg-white">
-                <h2>Join Waitist</h2>
-                <p class="sect-desc">Be the first to try out our app! If you join the waitlist, you will receive invitation when we start the early beta testing phase.</p><br>
-                <iframe name="dummyframe" id="dummyframe" style="display: none;"></iframe>
-
-                <form class="waitlist" action="https://script.google.com/macros/s/AKfycbzmQnrOCMJ7-uvSmUOdHGsD14zfzS3lXe-5zUl_Mlfkmbi2615di0g15RfNVWDBg1Nw/exec" target="dummyframe">
-                    <label>Name <input type="text" name="name" placeholder="Peter Till" required></label><br>
-                    <label>Email <input type="email" name="email" placeholder="your@email.com" required></label><br>
-                    <input onclick="alert('Successfully signed up!')" type="submit" value="Join the waitlist">
-                </form>
-            </section-->
+                <button class="carousel-control-prev" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#testimonialCarousel" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
             
-        </main><br><br><br><br><br><br><br><br>
-<!--footer>
-                <span class="footer-notice">2023 | BudgetCat<br>All rights reserved!</span>
-                <ul class="footer-links">
-                    <li><a href="https://google.com">About</a></li>
-                    <li><a href="https://google.com">Privacy Policy</a></li>
-                </ul>
-            </footer-->
-            <script type="text/javascript">
-                function formSubmited() {
-                    alert('You have successfully joined the waitlist for 5 CSC! The amount will be sent to your account within a week!');
-                    var progressbar = document.getElementById("progressbar");
-                    progressbar.style.width += 5;
-                    return false;
-                }
-            </script>
-    </body>
+        </section>
+        
+
+
+        
+
+      </main>
+      <dialog id="csc" class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h2>CodersCoin</h2>
+                <p>CodersCoin is a unique and completely proprietary blockchain and cryptocurrency technology developed by Peter Till. CodersCoin serves as a kind of reputation and credit for programmers, designers, and computer enthusiasts. The goal of the development is to provide a simple platform for digital creators to pay themselves without the intervention of any banks or governments. In addition, digital files can be sent securely. No separate app needed, just a Github account. With CodersCoin you can empower your community with fast and secure transactions or support your favorite open source projects.</p>
+            </div>
+            <div class="col-sm">
+                <table class="table" style="color: white;">
+                    <thead></thead>
+                    <tr>
+                        <td>Technology</td>
+                        <td>NodeJS, Express.js, MongoDB</td>
+                    </tr>
+                    <tr>
+                        <td>Time to create</td>
+                        <td>Less than a week</td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td><a href="https://coderscoin.github.io/?utm_source=portfolio&utm_medium=project&utm_campaign=popup">Website</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-primary" onclick="csc.close()">Close</button><!--Or from with dialog method-->
+      </dialog>
+      <dialog id="fmode" class="container">
+        <div class="row">
+            <div class="col-sm">
+                <h2>FocusMode</h2>
+                <p>FocusMode is a powerful productivity tool made by Peter Till, that allows you to create custom modes such as study and work and block disruptive websites in those modes. Simply add the websites you want to block to each mode. These websites are automatically blocked when this mode is enabled. FocusMode lets you focus on your work or study without social media, news sites, or other online distractions. FocusMode helps you get more done in less time. </p>
+            </div>
+            <div class="col-sm">
+                <table class="table" style="color: white;">
+                    <thead></thead>
+                    <tr>
+                        <td>Technology</td>
+                        <td>JavaScript, HTML, CSS, Bootstrap, Chrome API</td>
+                    </tr>
+                    <tr>
+                        <td>Time to create</td>
+                        <td>Less than a week</td>
+                    </tr>
+                    <tr>
+                        <td>Website</td>
+                        <td><a href="https://microsoftedge.microsoft.com/addons/detail/oijfegadlcnfapbpkpkfmloghahlicea">Microsoft Addon</a></td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+        <button class="btn btn-primary" onclick="fmode.close()">Close</button><!--Or from with dialog method-->
+      </dialog>
+      <footer class="bg-light text-center text-lg-start">
+        <!-- Copyright fixed-bottom -->
+        <div class="text-center p-3" style="background-color: #1B223D; color: white;">
+          © 2023 Copyright:
+          Peter Till
+        </div>
+        <!-- Copyright -->
+      </footer>
+</body>
+</html>
