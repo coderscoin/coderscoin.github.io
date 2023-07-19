@@ -1,0 +1,8 @@
+{
+    "name": "CodersCoinTest",
+    "symbol": "CSCT",
+    "total_supply": "900000000",
+    "decimals": 18,
+    "image": "https://coderscoin.github.io/assets/brand/icon.png",
+    "website": "https://coderscoin.github.io/"
+  }
